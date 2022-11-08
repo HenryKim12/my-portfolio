@@ -1,0 +1,50 @@
+* {
+    margin: 0; 
+    border: 0;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .aboutMe {
+    margin-left: 100px;
+    text-align: left;
+  }
+
+  .name {
+    color: black;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .info {
+    display: block;
+    margin: 20px auto;
+    color: black;
+  }
+
+  .pfp {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid black;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 10px auto;
+  }
+
+  .socialsLogo {
+    margin: 10px;
+  }
+  
+  .socialsLogo:hover {
+    filter: invert(100%);    
+  }
